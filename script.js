@@ -160,3 +160,9 @@ function placeFood() {
     foodX = Math.floor(Math.random() * columns) * blockSize
     foodY = Math.floor(Math.random() * rows) * blockSize
 }
+
+const resetButton = document.querySelector("#reset")
+
+resetButton.addEventListener("click", () => {
+    location.reload()
+})
