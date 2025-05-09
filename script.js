@@ -33,7 +33,7 @@ let board = document.querySelector("#board")
 let context
 
 
-// definerer størrelsen på slangen
+// definerer start plassen på slangen
 let snakeX = blockSize * 5 
 let snakeY = blockSize * 5
 
